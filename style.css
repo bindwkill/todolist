@@ -1,17 +1,22 @@
 .container {
   max-width: 400px;
+
 }
 
 input[type=text],
 input[type=text]:focus {
   color: #fff;
-  border: none;
-  background: rgba(42, 121, 145, 0.2);
+  border: rgba(94, 181, 207, 0.225);
+  background: rgb(195, 198, 199);
   max-width: 400px;
 }
 
 .todos-container li {
-  background: #4197dd;
+  background: #ffffff00;
+  border-style: hidden hidden solid hidden;
+  border-color: #1b2139a5;
+  border-width: 0.1rem;
+  font-size: 20px
 }
 
 .delete {
@@ -20,4 +25,38 @@ input[type=text]:focus {
 
 .hidden {
   display: none;
+}
+
+.pencil-text {
+  color: #405199;
+  font-style: oblique;
+  font-family: 'Brush Script MT', cursive;
+}
+
+.paper {
+  border-radius: 10px;
+  background: url(/imgs/paper.webp);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+}
+
+.spiral {
+  background: url(/imgs/spiral.png);
+  background-position: left top;
+  background-repeat: space;
+  background-size: 2.1rem;
+  min-height: 3rem;
+  width: 100%;
+  transform: translateY(-2.5rem);
+}
+
+ul {
+  transform: translateY(-1rem);
+}
+
+body {
+  background: url(/imgs/desk.jpg);
+  background-position: left top;
+  background-size: cover;
 }
