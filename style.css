@@ -35,14 +35,14 @@ input[type=text]:focus {
 
 .paper {
   border-radius: 10px;
-  background: url(/imgs/paper.webp);
+  background: url(./imgs/paper.webp);
   background-position: left top;
   background-repeat: repeat;
   padding: 20px;
 }
 
 .spiral {
-  background: url(/imgs/spiral.png);
+  background: url(./imgs/spiral.png);
   background-position: left top;
   background-repeat: space;
   background-size: 2.1rem;
@@ -56,7 +56,7 @@ ul {
 }
 
 body {
-  background: url(/imgs/desk.jpg);
+  background: url(./imgs/desk.jpg);
   background-position: left top;
   background-size: cover;
 }
